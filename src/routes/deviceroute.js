@@ -1,5 +1,5 @@
 import express from "express";
-import Device from "../models/Device.js";
+import Device from "../models/device.js";
 import Lost from "../models/lost.js";
 import Family from "../models/familyModel.js";
 import { sendEmail } from "../config/email.js";
